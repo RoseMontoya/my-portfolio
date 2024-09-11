@@ -2706,6 +2706,13 @@ input, select, textarea {
 
 			}
 
+/* Projects  */
+
+#projects {
+	text-align: center;
+	padding-top: 6em;
+}
+
 /* Spotlight */
 
 	.spotlight {
@@ -2718,6 +2725,9 @@ input, select, textarea {
 		display: -ms-flex;
 		display: flex;
 	}
+	    .spotlight a:hover {
+			text-decoration: underline;
+		}
 
 		.spotlight .image {
 			-moz-order: 1;
